@@ -1,10 +1,15 @@
+name: Deploy Workflow
+
 on:
   push:
     branches:
       - main
+
 jobs:
   deploy:
+    name: Deploy to Production
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -20,10 +25,14 @@ jobs:
       - name: Predeploy
         run: npm run predeploy
 
-      - name: deploy
+      - name: Configure Git User
+        run: |
+          git config user.name "CodeNXS"
+          git config user.email "codenexus.official1@gmail.com"
+
+      - name: Deploy
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           npm run deploy -- -u "CodeNXS <codenexus.official1@gmail.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
