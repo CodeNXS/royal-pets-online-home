@@ -24,12 +24,9 @@ jobs:
       - name: Build Vite app
         run: npm run build  # This will generate 'dist/'
 
-      - name: Deploy to GitHub Pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy with gh-pages
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          npx gh-pages -d dist \
-            -u "GitHub Actions <actions@github.com>" \
-            -r https://CodeNXS:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+            git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+            npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
