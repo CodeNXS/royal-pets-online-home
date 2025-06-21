@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+Welcome to Your Code Nexus Project
 
-## Project info
+Project Info
 
-**URL**: https://lovable.dev/projects/457baf8f-6b6a-4bd8-b632-6004bb71397e
+URL: https://codenexus.tech/projects/bridgeai (replace with actual domain when ready)
 
-## How can I edit this code?
+How to Edit This Project
 
-There are several ways of editing your application.
+There are several ways to work on this application:
 
-**Use Lovable**
+Use Your Preferred IDE
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/457baf8f-6b6a-4bd8-b632-6004bb71397e) and start prompting.
+You can edit this project locally using any IDE that supports modern web development. Just follow these steps:
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository.
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Move into the project directory.
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install required dependencies.
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the local development server.
 npm run dev
-```
+Edit Files Directly on GitHub
 
-**Edit a file directly in GitHub**
+Browse to the file you want to update.
+Click the pencil icon in the top-right corner to make edits.
+Commit your changes directly to the repository.
+Use GitHub Codespaces (Optional)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Navigate to the main repo page.
+Click the green “Code” button and go to the “Codespaces” tab.
+Launch a new Codespace and start editing in-browser with no local setup needed.
+Technologies Used
 
-**Use GitHub Codespaces**
+This project is built with a modern web stack including:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Vite – fast and optimized build tool
+TypeScript – for type-safe development
+React – for interactive UI
+shadcn/ui – for accessible, customizable components
+Tailwind CSS – for utility-first styling
+Deployment
 
-## What technologies are used for this project?
+To publish or share the live version of the site:
 
-This project is built with:
+Push your final changes to the main branch.
+The site is automatically deployed through our deployment pipeline.
+A public link will be generated for sharing or preview.
+Connect a Custom Domain
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+To use your own domain:
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/457baf8f-6b6a-4bd8-b632-6004bb71397e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Go to the project dashboard.
+Navigate to Settings > Domains.
+Click Connect Domain and follow the steps to configure DNS records.
