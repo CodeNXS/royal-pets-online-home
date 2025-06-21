@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://codeNXS.github.io/royal-pets-online-home/",
+  "homepage": "https://codenxs.github.io/royal-pets-online-home/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
