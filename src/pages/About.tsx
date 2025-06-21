@@ -16,7 +16,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
           <div>
             <h2 className="text-3xl font-bold text-gray-800 mb-6">
-              Where It All Began
+              Where It All Began...
             </h2>
             <p className="text-gray-600 mb-4 leading-relaxed">
               Royal Pets started as a small family business with a simple mission: to provide 
