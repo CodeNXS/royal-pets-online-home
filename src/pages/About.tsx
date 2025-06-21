@@ -82,7 +82,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               { name: "Sarah Johnson", role: "Founder & Head Groomer", image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" },
-              { name: "Micheal Chen", role: "Pet Care Specialist", image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" },
+              { name: "Mike Chen", role: "Pet Care Specialist", image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" },
               { name: "Emily Rodriguez", role: "Grooming Assistant", image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" }
             ].map((member, index) => (
               <div key={index} className="bg-white rounded-2xl p-6 shadow-lg">
