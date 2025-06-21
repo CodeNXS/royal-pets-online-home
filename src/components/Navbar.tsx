@@ -7,11 +7,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navigation = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "Products", href: "/products" },
-    { name: "Contact", href: "/contact" },
+    { name: "Home", href: "/royal-pets-online-home/" },
+    { name: "About", href: "/royal-pets-online-home/about" },
+    { name: "Services", href: "/royal-pets-online-home/services" },
+    { name: "Products", href: "/royal-pets-online-home/products" },
+    { name: "Contact", href: "/royal-pets-online-home/contact" },
   ];
 
   return (
