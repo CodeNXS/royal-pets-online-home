@@ -2,8 +2,6 @@ Welcome to Your Code Nexus Project
 
 Project Info
 
-URL: https://codenexus.tech/projects/bridgeai (replace with actual domain when ready)
-
 How to Edit This Project
 
 There are several ways to work on this application:
