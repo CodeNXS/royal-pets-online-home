@@ -23,11 +23,11 @@ const App = () => (
         <div className="min-h-screen bg-amber-50">
           <Navbar />
           <Routes>
-            <Route path="//" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/royal-pets-online-home/" element={<Home />} />
+            <Route path="/royal-pets-online-home/about" element={<About />} />
+            <Route path="/royal-pets-online-home/services" element={<Services />} />
+            <Route path="/royal-pets-online-home/products" element={<Products />} />
+            <Route path="/royal-pets-online-home/contact" element={<Contact />} />
           </Routes>
           <Footer />
         </div>
